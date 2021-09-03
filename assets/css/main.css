@@ -182,6 +182,10 @@ body{
         font-size: 0.8em;
     }
 
+    .partnerImageContainer img{
+        width: 34em;
+    }
+
     .partnerImageContainer,
     .partnerTextContainer{
         justify-content: unset;
