@@ -82,7 +82,7 @@ body{
 
 .textCardContainer{
     margin-left: 5em;
-    width: 50em;
+    width: 5em;
     display: flex;
     align-items: center;
 }
@@ -119,6 +119,35 @@ body{
     -webkit-text-stroke-color: black;
     opacity: 0.5;
 }
+.partnersSliderContainer{
+    width: 90%;
+}
+
+.partnersSlider{
+    margin-right: 0 !important;
+    width: 70em;
+}
+
+.partnerTextContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnerImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnerImageContainer img{
+    width: 30em;
+}
+
+.partnerTextContainer h1{
+    font-size: 10em;
+    font-weight: bold;
+}
 
 
 @media only screen and (max-width: 400px) {
@@ -147,5 +176,9 @@ body{
     }
     .textCard p{
         font-size: 2.4em;
+    }
+
+    .partnerImageContainer{
+        justify-content: unset;
     }
 }

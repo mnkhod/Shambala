@@ -12,9 +12,8 @@ var initCursor = new NodeCursor({
   hide_timing: 2000,
 });
 
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".mainSlider", {
   direction: "horizontal",
-  spaceBetween: 30,
   freeMode: true,
   slidesPerView: 'auto',
   simulateTouch: true,
@@ -35,4 +34,10 @@ $("#backgroundTextContainer h1").marquee({
   direction: "right",
   //true or false - should the marquee be duplicated to show an effect of continues flow
   duplicated: true,
+});
+
+
+var swiper2 = new Swiper(".partnersSlider", {
+  direction: "vertical",
+  mousewheel: true,
 });
